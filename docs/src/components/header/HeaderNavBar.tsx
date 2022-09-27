@@ -357,6 +357,7 @@ export default function HeaderNavBar() {
             ref={docsMenuRef}
             aria-haspopup
             aria-expanded={subMenuOpen === 'docs' ? 'true' : 'false'}
+            style={{  pointerEvents: 'none' }}
           >
             Docs
           </div>
